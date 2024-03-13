@@ -43,7 +43,7 @@ find_package(rclcpp REQUIRED)
 find_package(rcpputils REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
-find_package(OpenCV 4 QUIET
+find_package(OpenCV 4.4 QUIET
   COMPONENTS
     opencv_core
     opencv_imgproc
